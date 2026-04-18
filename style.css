@@ -53,6 +53,28 @@ html, body {
     animation: navFlash 0.2s ease;
 }
 
+.page-placeholder {
+    background: #efefef;
+    min-height: calc(100vh - 100px);
+    padding: 80px 60px;
+    box-sizing: border-box;
+}
+
+.page-placeholder h1 {
+    margin: 0 0 20px;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #111;
+}
+
+.page-placeholder p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #222;
+}
+
 @keyframes navFlash {
     0% {
         text-shadow: 0 0 0 rgba(255, 255, 255, 0);
